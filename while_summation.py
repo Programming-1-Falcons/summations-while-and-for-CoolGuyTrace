@@ -1,5 +1,5 @@
 #while summation code following directions from Readme
-userNumber = int(input(""))
+userNumber = int(input("Enter a number: "))
 num1 = 0
 num2 = 0
 
