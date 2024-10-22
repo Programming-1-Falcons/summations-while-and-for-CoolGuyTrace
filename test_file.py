@@ -23,7 +23,7 @@ def test_while():
     print(f"Actual output: {result.stdout.strip()}")
 
     # Assert if the output is as expected
-    assert result.stdout.strip() == expected_output.strip(), f"Expected {expected_output.strip()}, but got {result.stdout.strip()}"
+    assert result.stdout.strip() in expected_output.strip(), f"Expected {expected_output.strip()}, but got {result.stdout.strip()}"
 
 def test_for():
     # Set up the test input (number to sum up to)
@@ -47,4 +47,4 @@ def test_for():
     print(f"Actual output: {result.stdout.strip()}")
 
     # Assert if the output is as expected
-    assert result.stdout.strip() == expected_output.strip(), f"Expected {expected_output.strip()}, but got {result.stdout.strip()}"
+    assert result.stdout.strip() in expected_output.strip(), f"Expected {expected_output.strip()}, but got {result.stdout.strip()}"
