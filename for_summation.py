@@ -5,5 +5,5 @@ num1 = 0
 for i in range(int(input("Enter a number: "))+1):
     num1+=i
 
-#Print the final sum
+#Print the final sum.
 print(num1)
